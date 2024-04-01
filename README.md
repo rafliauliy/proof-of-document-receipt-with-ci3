@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Aplikasi Pengadaan Barang<br/>
 ## Free Source Code<br/>
 
@@ -11,3 +12,6 @@
 ### Keterangan <br/>
 Database : <code>ci_barang</code><br/>
 <br/>
+=======
+# proof-of-document-receipt-with-ci3
+>>>>>>> 253f95ab9cc659215a4073fd42b5b4ecfff62b52
