@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Aplikasi Pengadaan Barang<br/>
 ## Free Source Code<br/>
 
