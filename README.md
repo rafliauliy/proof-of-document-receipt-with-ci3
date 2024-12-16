@@ -1,30 +1,30 @@
-# Aplikasi BTTD Barang
-Aplikasi untuk mengelola data barang yang terlibat dalam proses **Bukti Tanda Terima Dokumen (BTTD)** di Krakatau Argologistics.
+# Aplikasi BTTD - Dokumen Keuangan
+Aplikasi untuk mengelola dokumen keuangan seperti **Invoice**, **Surat Perintah Kerja (SPK)**, **Faktur Pajak**, dan dokumen terkait lainnya yang digunakan di Krakatau Argologistics.
 
 ## Fitur:
-- **Pendaftaran Barang**  
-  Memungkinkan pengguna untuk mendaftarkan barang yang diterima atau yang akan dikirim dalam sistem, dengan informasi detail mengenai barang tersebut seperti jenis, jumlah, dan asal muat.
-
-- **Verifikasi dan Pengelolaan Data Barang**  
-  Pengguna dapat memverifikasi dan mengelola data barang yang terdaftar, termasuk status barang dan informasi terkait lainnya.
+- **Pengelolaan Dokumen Keuangan**  
+  Aplikasi memungkinkan pengguna untuk mengelola berbagai dokumen keuangan yang dibutuhkan dalam kegiatan operasional perusahaan, seperti invoice, SPK, faktur pajak, dan dokumen administrasi lainnya.
 
 - **Pencatatan Bukti Tanda Terima Dokumen (BTTD)**  
-  Aplikasi memungkinkan untuk mencatat dan menghasilkan dokumen BTTD yang mencatat penerimaan barang yang sesuai dengan pengajuan atau kontrak.
+  Aplikasi ini juga mencatat dan menghasilkan **Bukti Tanda Terima Dokumen (BTTD)** yang menandakan penerimaan dokumen keuangan oleh pihak terkait, memastikan dokumen sudah diterima dan diproses dengan baik.
 
-- **Pelaporan dan Laporan Barang**  
-  Menyediakan laporan kegiatan terkait barang yang diterima, dikirim, dan yang berhubungan dengan dokumen BTTD. Laporan ini berguna untuk proses administrasi dan audit.
+- **Verifikasi dan Pengelolaan Status Dokumen**  
+  Pengguna dapat memverifikasi status dokumen yang terdaftar dan mengelola proses penerimaan, persetujuan, atau pengajuan dokumen untuk tahap berikutnya, misalnya, persetujuan SPK atau faktur pajak.
 
-- **Pengelolaan Data Vendor**  
-  Aplikasi ini juga terintegrasi dengan data vendor yang menyediakan barang, memungkinkan untuk mengelola informasi terkait pengiriman barang.
+- **Pelaporan Dokumen Keuangan**  
+  Aplikasi ini menyediakan fitur untuk menghasilkan laporan terkait dokumen keuangan yang diterima atau dikeluarkan, memungkinkan manajemen untuk mengawasi alur dokumen dengan lebih baik.
+
+- **Integrasi Data Vendor dan Pembayaran**  
+  Pengguna dapat mengelola informasi vendor, termasuk pembayaran yang terkait dengan dokumen seperti SPK dan invoice, memberikan informasi transparan terkait status transaksi keuangan.
 
 ## Teknologi yang Digunakan:
 - **CodeIgniter 3**: Framework PHP yang digunakan untuk pengembangan aplikasi ini.
 - **Bootstrap 4**: Untuk tampilan yang responsif dan modern.
 - **SB Admin 2**: Template admin panel yang digunakan untuk antarmuka pengguna.
-- **Datatables**: Digunakan untuk menampilkan data barang dalam bentuk tabel interaktif.
-- **Chart.js**: Untuk membuat grafik dan visualisasi data terkait pengelolaan barang.
+- **Datatables**: Digunakan untuk menampilkan data dokumen dalam bentuk tabel interaktif.
+- **Chart.js**: Untuk membuat grafik dan visualisasi data terkait dokumen keuangan.
 
 ## Database:
-- **ci_barang**: Database yang digunakan untuk menyimpan data barang, vendor, dan dokumen BTTD.
+- **ci_dokumen_keuangan**: Database yang digunakan untuk menyimpan data terkait dokumen keuangan seperti invoice, SPK, faktur pajak, dan dokumen terkait lainnya.
 
-Dengan aplikasi ini, proses pengelolaan barang yang terlibat dalam BTTD di Krakatau Argologistics menjadi lebih efisien dan terstruktur.
+Dengan aplikasi ini, proses pengelolaan dokumen keuangan yang terkait dengan transaksi dan administrasi di Krakatau Argologistics menjadi lebih efisien dan terstruktur.
